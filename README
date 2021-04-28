@@ -8,3 +8,6 @@
     "category_id" : 2,
     "created" : "2018-06-01 00:35:07"
 }
+
+#To read one record
+#http://localhost/phpapi/product/read_one.php?id=60
