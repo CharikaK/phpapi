@@ -109,7 +109,7 @@ class Product{
         $this->category_id = $row['category_id'];
         $this->category_name = $row['category_name'];
     }
-
+  
     // update the product
     function update(){
     
@@ -170,8 +170,6 @@ class Product{
         }
     
         return false;
-    }
-    
+    }  
 
 }
-?>
