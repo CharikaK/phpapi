@@ -25,3 +25,10 @@
 #     "created" : "2018-08-01 00:35:07"
 # }
 
+# To delete a record
+# http://localhost/phpapi/product/delete.php
+# we are not passing id in the url parameter
+# we are not passing id in the url parameter
+# {
+#     "id" : "106"
+# }
