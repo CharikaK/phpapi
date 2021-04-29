@@ -108,8 +108,8 @@ class Product{
         $this->description = $row['description'];
         $this->category_id = $row['category_id'];
         $this->category_name = $row['category_name'];
-    }
-  
+    }    
+
     // update the product
     function update(){
     
@@ -147,7 +147,8 @@ class Product{
         }
     
         return false;
-    } 
+    }    
+
     
     // delete the product
     function delete(){
@@ -171,5 +172,6 @@ class Product{
     
         return false;
     }  
+
 
 }
