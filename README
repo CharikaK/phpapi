@@ -1,13 +1,34 @@
 
 # http://localhost/phpapi/product/create.php 
 # insert below JSON array into Postman to run create()
-{
-    "name" : "Amazing Pillow 2.0",
-    "price" : "199",
-    "description" : "The best pillow for amazing programmers.",
-    "category_id" : 2,
-    "created" : "2018-06-01 00:35:07"
-}
+# {
+#     "name" : "Amazing Pillow 2.0",
+#     "price" : "199",
+#     "description" : "The best pillow for amazing programmers.",
+#     "category_id" : 2,
+#     "created" : "2018-06-01 00:35:07"
+# }
 
-#To read one record
-#http://localhost/phpapi/product/read_one.php?id=60
+# To read one record
+# http://localhost/phpapi/product/read_one.php?id=60
+
+# To update a record
+# http://localhost/phpapi/product/update.php
+# we are not passing id in the url parameter
+# insert below JSON array into Postman to run update()
+# {
+#     "id" : "106",
+#     "name" : "Amazing Pillow 3.0",
+#     "price" : "255",
+#     "description" : "The best pillow for amazing programmers.",
+#     "category_id" : 2,
+#     "created" : "2018-08-01 00:35:07"
+# }
+
+# To delete a record
+# http://localhost/phpapi/product/delete.php
+# we are not passing id in the url parameter
+# we are not passing id in the url parameter
+# {
+#     "id" : "106"
+# }
